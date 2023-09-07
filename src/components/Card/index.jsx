@@ -1,23 +1,24 @@
 export const Card = (props) => {
-
   return (
     <div
       style={{
-        backgroundColor: '#303030',
+        backgroundColor: "#303030",
         padding: 20,
         margin: 20,
         borderRadius: 8,
         width: 250,
-        cursor: 'pointer'
+        cursor: "pointer",
       }}
     >
-      <img src={props.imagem} width='100%' />
+      <img src={props.imagem} width="100%" />
       <h2
         style={{
           marginTop: 10,
-          textAlign: 'center'
+          textAlign: "center",
         }}
-      >{props.titulo}</h2>
+      >
+        {props.titulo}
+      </h2>
     </div>
-  )
-}
+  );
+};
